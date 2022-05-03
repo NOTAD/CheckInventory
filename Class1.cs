@@ -14,9 +14,9 @@ namespace Plugin
     [ApiVersion(2, 1)]
     public class Plugin : TerrariaPlugin
     {
-        public override string Author => "Ak";
+        public override string Author => "Notad";
 
-        public override string Description => "展示背包";
+        public override string Description => "Show Inv";
 
         public override string Name => "Check Bag";
 
@@ -32,9 +32,9 @@ namespace Plugin
             Commands.ChatCommands.Add(new Command(
                 //permissions: new List<string> { },
                 cmd: this.CheckBag,
-                "背包", "bag", "bb")
+                "balo", "bag", "bb")
             {
-                HelpText = "查询其他玩家的背包。别名：bag 和 bb "
+                HelpText = "Check other players' backpacks. Aliases: bag or bb"
             });
         }
 
@@ -49,7 +49,7 @@ namespace Plugin
 
             if (argsCount != 0 && argsCount != 1)
             {
-                args.Player.SendErrorMessage($"语法错误！正确语法 [c/55D284:/背包] [c/55D284:<玩家>]");
+                args.Player.SendErrorMessage($"Error [c/55D284:/bag] [c/55D284:<player>]");
             }
             else if (argsCount == 0)
             {
@@ -60,7 +60,7 @@ namespace Plugin
                 var players = TSPlayer.FindByNameOrID(args.Parameters[0]);
                 if (players.Count == 0)
                 {
-                    args.Player.SendErrorMessage("不存在该玩家!");
+                    args.Player.SendErrorMessage("The player does not exist!");
                 }
                 else if (players.Count > 1)
                 {
@@ -73,7 +73,7 @@ namespace Plugin
             }
 
             inventory = target.TPlayer.inventory;
-            str = $"{target.Name}" + "的背包：" + "\r\n";
+            str = $"{target.Name}" + "Blackpack：" + "\r\n";
 
             for (int i = 0; i < NetItem.InventorySlots; i++)
             {

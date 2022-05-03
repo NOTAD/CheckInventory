@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="OTAPI">
-      <HintPath>..\..\..\..\Downloads\Tshock\OTAPI.dll</HintPath>
+      <HintPath>Tshock\OTAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,10 +43,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="TerrariaServer">
-      <HintPath>..\..\..\..\Downloads\Tshock\TerrariaServer.exe</HintPath>
+      <HintPath>Tshock\TerrariaServer.exe</HintPath>
     </Reference>
     <Reference Include="TShockAPI">
-      <HintPath>..\..\..\..\Downloads\Tshock\ServerPlugins\TShockAPI.dll</HintPath>
+      <HintPath>Tshock\TShockAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

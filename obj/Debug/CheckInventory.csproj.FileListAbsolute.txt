@@ -1,0 +1,10 @@
+C:\Users\lucifer\Desktop\CheckInventory-main\bin\Debug\CheckInventory.dll
+C:\Users\lucifer\Desktop\CheckInventory-main\bin\Debug\CheckInventory.pdb
+C:\Users\lucifer\Desktop\CheckInventory-main\bin\Debug\OTAPI.dll
+C:\Users\lucifer\Desktop\CheckInventory-main\bin\Debug\TerrariaServer.exe
+C:\Users\lucifer\Desktop\CheckInventory-main\bin\Debug\TShockAPI.dll
+C:\Users\lucifer\Desktop\CheckInventory-main\obj\Debug\CheckInventory.csproj.AssemblyReference.cache
+C:\Users\lucifer\Desktop\CheckInventory-main\obj\Debug\CheckInventory.csproj.CoreCompileInputs.cache
+C:\Users\lucifer\Desktop\CheckInventory-main\obj\Debug\CheckInventory.csproj.CopyComplete
+C:\Users\lucifer\Desktop\CheckInventory-main\obj\Debug\CheckInventory.dll
+C:\Users\lucifer\Desktop\CheckInventory-main\obj\Debug\CheckInventory.pdb
