@@ -1,7 +1,7 @@
 # CheckInventory
 Check player's bag plug-in for terraria baesd on TShock.
 # How-to
-command: <code>背包</code> <br />
+command: <code>Balo</code> <br />
 alias: <code>bag</code> <br />
 alias: <code>bb</code> <br />
 
